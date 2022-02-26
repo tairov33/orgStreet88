@@ -1,0 +1,257 @@
+@media(max-width:1440px){}
+@media(max-width:1328px){
+    .menu1,
+    .menu2{
+        flex-direction: column;
+       align-items: center;
+    }
+}
+@media(max-width:1320px){
+    .intro_list{
+        justify-content: center;
+    }
+}
+@media(max-width:1290px){}
+@media(max-width:1140px){}
+@media(max-width:1024px){}
+@media(max-width:992px){
+  .header{
+      overflow: hidden;
+  }
+    .bottom_list{
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        padding-top: 90px;
+        align-items: center;
+        right: -100%;
+        height:100vh;
+        transition: .5s;
+    }
+    .bottom_header{
+        padding: 20px;
+    }
+    .menu_icon{
+        display: block;
+        font-size: 30px;
+        color: rgba(105, 207, 23, 0.75);
+    }
+    .close{
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 30px;
+        font-size: 30px;
+        color: rgba(105, 207, 23, 0.75);
+    }
+    #menu:checked + .bottom_list{
+        right: 0;
+    }
+}
+
+@media(max-width:815px){
+    .menu1,
+    .menu2{
+     flex-direction: column;  
+     align-items: center; 
+    }
+    .location_title{
+        font-size: 40px;
+    }
+}
+@media(max-width:768px){}
+@media(max-width:760px){
+    .footer_list{
+        padding: 51px 0;
+    }
+   .location_title{
+       margin-top: 20px;
+       font-size: 35px;
+       padding: 15px 0;
+   }
+    .boxes{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .opshiy_menu{
+        gap: 15px;
+    }
+    .menu1,
+    .menu2{
+        gap: 15px;
+    }
+}
+@media(max-width:736px){}
+@media(max-width:734px){
+    iframe{
+        height: 380px;
+    }
+}
+@media(max-width:710px){}
+@media(max-width:684px){
+    iframe{
+        height: 330px;
+    }
+}
+@media(max-width:667px){}
+@media(max-width:640px){
+    iframe{
+        height: 300px;
+    }
+    .intro_title,
+    .intro_2title {
+        text-align: center;
+    }
+    .paying {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .sena{
+        font-size: 40px;
+        width: 220px;
+        height: 80px;
+    }
+    .pay{
+        width: 190px;
+        height: 45px;
+            }
+            .paying{
+                gap: 20px;
+            }
+     .intro_title{
+         font-size: 65px;
+              }       
+}
+@media(max-width:576px){
+    .location_title{
+        font-size: 30px;
+        padding: 10px 0;
+    }
+    .sena{
+        width: 180px;
+        height: 70px;
+        font-size: 35px;
+    }
+    .pay{
+        width: 160px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .location_title{
+        font-size: 35px;
+    }
+}
+@media(max-width:500px){
+    iframe{
+        height: 280px;
+    }
+    .intro_title{
+        font-size: 62px;
+    }
+    .top_header{
+        flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 85px;
+    }
+    .top_icon{
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+    .top_list{
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:460px){
+    
+    .intro_list{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    .intro_link span{
+        padding: 10px 0;;
+    }
+    iframe{
+        height: 250px;
+    }
+}
+
+@media(max-width:440px){
+    .logo_tel{
+        flex-direction: column;
+    }
+    .tel{
+        margin-top: 20px;
+    }
+    .footer_list{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 21px 0;
+    }
+    .logo{
+        width: 190px;
+        font-size: 30px;
+    }
+    .footer_link{
+        font-size: 18px;
+    }
+    .footer_text{
+        text-align: center;
+        padding: 15px 0;
+    }
+    .location_title{
+        font-size: 30px;
+    }
+}
+@media(max-width:414px){}
+@media(max-width:375px){}
+@media(max-width:360px){
+    .intro_title{
+        font-size: 50px;
+    }
+    .logo{
+        width: 150px;
+        font-size: 25px;
+    }
+    .intro_text{
+        line-height: 21px;
+    }
+}
+@media(max-width:320px){
+    .boxes p{
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .location_title{
+        font-size: 25px;
+        padding: 5px 0;
+    }
+    iframe{
+        height: 180px;
+    }
+    .sena{
+        width: 170px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .pay{
+        width: 140px;
+        height: 30px;
+    }
+}
+@media(max-width:280px){
+    .intro_title{
+        font-size: 49px;
+        margin-bottom: 10px;
+    }
+    .intro_2title{
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+}
